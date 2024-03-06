@@ -1,87 +1,78 @@
+<!--Apparently this is a comment???-->
 
+<!DOCTYPE html>
 
+<windows-1252>
 
-body {color: #666666; background-color: #90C7E3; font-family: veranda; margin: 0;}
+<html lang="en">
 
-header {background-color: #002171; color: #FFFFFF; font-family: Georgia;}
+    <nav>
+        
+        <b><a href="index.html">Home</a></b>
+        <b><a href="yurts.html">Yurts</a></b>
+        <b><a href="activities.html">Activities</a></b>
+        <b><a href="reservations.html">Reservations</a></b>
+        <b><a href="shop.html">Shop</a></b>
+        
+    </nav>
 
-header {style{line-height: 120px; #figure {border: 3px solid #000000; font-family: papyrus, fantasy; padding: 6px; text-align: center; width: 500px; padding-top:.5em;}}}
+    <div id="reshero">
+        
+    </div>
 
-h1 {line-height: 200%; font-size: 3em; letter-spacing: 0.1em; color:#002171}
+    <div wrapper="wrapper";></div>
 
-nav {line-height: 120px; font-weight: bold; padding-top:0em; padding-right: 0em; padding-bottom: 0em; font-size: 1.2em; word-spacing: 1em;}
+    <head>
+        <link rel="stylesheet" href="pacific.css">
 
-h2 {color: #1976D2; font-family: Georgia;}
+        <h1><a href="index.html" Pacific Trails Resort></a></h1>
+    
+        <title>
+            Pacific Trails Resort :: Reservations
+        </title>
 
-dt {color: #002171; font-weight:bold;}
+        <meta name= "viewport" content= "width=device-width, initial-scale= 1.0"> 
+    
+    </head>
+    
+    <main>
 
-footer {font-size: .70em; text-align: center; font-size: small; padding: 1em; background-color: white;}
+        <h2>
+            Reservations at Pacific Trails Resort
+        </h2>
 
-.resort {color: #1976D2; font-size: 1.2em;}
+        <h3>Contact Us</h3>
 
-#wrapper {margin-right: auto; margin-left: auto; background-color: linear-gradient(to right, white, blue); min-width: 960px; max-width:2048px;}
+        <p>Required fields are marked with an asterisk*</p>
 
-#grad{
-background-image: linear-gradient(to right, white, blue);}
+        <form action="https://webdevbasics.net/scripts/pacific.php" method="post">
 
-meta charset{color:#90C7E3;}
+            <label for="fname">First Name*:</label>
+            <input required type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last Name*:</label>
+            <input required type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email*:</label>
+            <input required type="text" id="email" name="email"><br><br>
+            <label for="phone">Phone Number*:</label>
+            <input required type="text" id="phone" name="phone"><br><br>
+            <label for="arrival">Arrival Date*:</label>
+            <input required type="date" id="arrival" name="arrival"><br><br>
+            <label for="nnights">Number of Nights*:</label>
+            <input required  type="range" id="myNights" name="myNights" nim="1" max="14">
+            <label for="comments">Comments*:</label>
+            <textarea required rows=2 cols=20 >
+            <input type="submit" value="Submit">
 
-header {background-image:"sunset.jpg"; align-content:"right"; padding: 1em;}
+        </form>
 
-h3 {font: Georgia;}
+    </main>
 
-main {padding-left: 2em; padding-right:2em; display:block;}
+    <footer>
 
-homehero-element{height: 300px; background-image:"coast.jpg"; background-size: 200% 100%;}
+        Copyright 2020 <span class="resort">Pacific Trails Resort </span><br> sophia.alexander@gmail.com
 
-yurthero-element{height:300px; background-image:"yurt.jpg"; background-size: 200% 100%;}
+    </footer>
 
-trailhero-element{height:300px; background-image:"trail.jpg"; background-size: 200% 100%;}
+</html>
 
-nav a {text-decoration:none;}
-
-* {box-sizing: border-box;}
-
-nav a:link {color:#5C7FA3; text-decoration-color:white;}
-
-nav a:visited {color:#344873; text-decoration-color:white;}
-
-nav a:hover {color: #A52A2A; text-decoration-color:#90C7E3;}
-
-nav ul{list-style-type:none; padding-left: 1em;}
-
-nav{position:fixed; padding-bottom: 3em;}
-
-main{padding-top: 0; padding-bottom: 0; padding-left: 1em; padding-right: 1em;}
-
-section{padding-left: 2em; padding-right:2em; padding-left:.5em; padding-right: .5em;}
-
-nav li{padding-top: 0.5em; padding-bottom: 0.5em; padding-left:1em; padding-right: 1em; width: 100%; border-bottom: 1px;}
-
-mobile-id{display: inline;}
-
-desktop-id{display:none;}
-
-.center{display: block; margin-left:auto; margin-right: auto; width: 50%;}
-
-table{align-content: center; border: #3399CC 1px; border-collapse: collapse;}
-
-td{text-align: center;}
-
-.text{text-align: left;}
-
-:nth-of-type(even){background-color: #DFEDF8}
-
-form{display:flex; flex-direction: column; padding-left: 1em; width:80%;}
-
-input{margin-bottom:  .5em;}
-
-textarea{margin-bottom: .5em;}
-
-reshero-element{height: 300px; background-image: "ocean.jpg"; background-size: 200% 100%; background-repeat: no-repeat;}
-
-form{width: 60%; grid-gap: 1em; columns{width: 10em;}}
-
-reshero-element{background-size: 100% 10%;}
-
-video{float: right; margin: .2em;}
+</windows-1252>
